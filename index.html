@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВЛАСТААЛ</title>
+    <link rel="stylesheet" href="./Scss/mobile.css">
+    <link rel="stylesheet" href="./Scss/reset.css">
+    <link rel="stylesheet" href="./Scss/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="conatiner">
+            <nav class="nav-item">
+                <ul class="ul-item">
+                    <img src="/Мир-Окон/img/VLASTAAL.png" class="Vlast-img">
+                    <li class="li-item-link"><a class="li-item-link-a" href="#">Жалюзи</a></li>
+                    <li class="li-item-link"><a class="li-item-link-a" href="/news.php">Новости сайта!</a></li>
+                    <li class="li-item-link"><a class="li-item-link-a" href="#">О нас</a></li>
+                    <li class="li-item-link"><a class="li-item-link-a" href="#">Товары</a></li>
+                    <li class="li-item-link"><a class="li-item-link-a" href="#"><span>+373 77781419</span></a></li>
+                    <li class="li-item-link"><a class="li-item-link-a" href="/Мир-Окон/textolite/"><span>Вход в админку</span></a></li>
+                    <button class="btn-zamer" onclick='example()'>Вызвать на замер!</button>
+                    <div id="example">
+                        <div>
+                          <p class="text">Наш адрес: г. Бендеры ул.Суворова 7.<br>Мобильные:
+                            0 (779) 75-107, 0 (777)8-14-19 <br> 9:00-16:00, без перерыва, вых. понедельник.</p>
+                          <button class="btn-zamer-close" onclick='example()'>Нажмите сюда, чтобы закрыть окно</a>
+                        </div>
+                        </div>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Мы в соц сетях</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="https://www.instagram.com/official_vlastaal/" target="_blank">Instagram</a>
+                              <a href="https://ok.ru/profile/578325221392" target="_blank">OK</a>
+                              <a href="https://vk.com/vlastaal?ysclid=l89tpahwfb287343233" target="_blank">VK</a>
+                              <a href="https://www.facebook.com/profile.php?id=100066513878525" target="_blank">Facebook</a>
+                            </div>
+                          </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="section-content">
+        <div class="conatiner">
+            <div class="content-about" style="background-image:url(./img/section-2.jpg);">
+                <h1 class="con-h1">
+                    Жалюзи для мансардных окон
+                </h1>
+                <p class="con-p">
+                    Каждая конструкция жалюзи имеет специальный набор креплений, благодаря которому изделие фиксируется на наклонной поверхности.
+                </p>
+                <button class="btn-zamer-two" onclick='example()'>Вызвать на замер!</button>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="section-d2">
+        <div class="conatiner">
+            <div class="block-1">
+                <h1 class="block-h1">
+                    Рулонные шторы
+                </h1>
+                <p class="block-p">
+                    Рулонные шторы — это один из самых современных и практичных  способов оформления окна. 
+                </p>
+            </div>
+            <div class="block-2">
+                <div class="block-2d">
+                    <img src="./img/section-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-d2">
+        <div class="conatiner">
+            <div class="block-2">
+                <div class="block-2d l">
+                    <img src="./img/section-3.png" alt="">
+                </div>
+            </div>
+            <div class="block-1 l">
+                <h1 class="block-h1">
+                    Крепления
+                </h1>
+                <p class="block-p">
+                    Рулонные шторы могут быть свободно висящими   либо зафиксированы магнитами или леской.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section-work" style="background-image: url('./img/section-5.png'); background-position:center; background-repeat: no-repeat;background-size: cover;">
+        <div class="conatiner">
+            <div class="container">
+                <h1 class="block-h1 f">
+                    Самые низкие цены
+                </h1>
+                <form>
+                    <div class="row">
+                        <h4>Тип жалюзи:</h4>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Горизонтальные жалюзи, Вертикальные жалюзи, Рулонные шторы," />
+                            <div class="input-icon"><i class="fa fa-user"></i></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-half">
+                            <h4>Выберите размеры:</h4>
+                            <div class="input-group">
+                                <div class="col-third"><input type="text" placeholder="Ширина:" /></div>
+                                <div class="col-third"><input type="text" placeholder="Высота:" /></div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div class="row">
+                        <h4>Выберите платежную систему:</h4>
+                        <div class="input-group"><input id="payment-method-card" type="radio" name="payment-method" value="card" checked="true" /><input id="payment-method-paypal" type="radio" name="payment-method" value="paypal" /><label for="payment-method-paypal"> <span><i class="fa fa-cc-paypal"></i>АПБ</span></label></div>
+                        <div class="input-group input-group-icon"><input type="text" placeholder="Номер карты:" />
+                            <div class="input-icon"><i class="fa fa-credit-card"></i></div>
+                        </div>
+                        <div class="col-half">
+                            <div class="input-group input-group-icon"><input type="text" placeholder="CVV:" />
+                                <div class="input-icon"><i class="fa fa-user"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-half">
+                          <input type="date">
+                    </div>
+                    <div class="row">
+                        <h4>Подтвердите действие <br> о конфедециальной информации:</h4>
+                        <div class="input-group"><input id="terms" type="checkbox" /><label for="terms">Соглашение о неразглашении конфиденциальной информации</label></div>
+                    </div>
+                    <div id="calculator">
+                        <!-- Screen and clear key -->
+                        <div class="top">
+                            <span class="clear">C</span>
+                            <div class="screen"></div>
+                        </div>
+                        
+                        <div class="keys">
+                            <!-- operators and other keys -->
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span class="operator">+</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span class="operator">-</span>
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span class="operator">÷</span>
+                            <span>0</span>
+                            <span>.</span>
+                            <span class="eval">=</span>
+                            <span class="operator">x</span>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="section-pol">
+        <div class="conatiner">
+            <section>
+                <h1>
+                    Наш aссортимент товаров
+                </h1>
+                <details>
+                  <summary class="sum-pk">Виды жалюзи</summary>
+                 
+                <p class="sum-p">
+                    Горизонтальные жалюзи
+                    </p>
+                    <p class="sum-p">
+                    Вертикальные жалюзи
+                    </p>
+                    <p class="sum-p">
+                    Рулонные жалюзи
+                    </p>
+                    <p class="sum-p">
+                    Классические горизонтальные жалюзи
+                    </p>
+                    <p class="sum-p">
+                    Жалюзи-плиссе
+                    </p>
+                    <p class="sum-p">
+                    Способы монтажа жалюзи
+                 </p>
+                </details>
+                <details>
+                  <summary class="sum-pk">Наши фото
+                  </summary>
+                  <img src="https://oknanagoda.com/wp-content/uploads/2016/08/vidy-zhalyuzi10.jpg" alt="">
+                  <img src="https://oknanagoda.com/wp-content/uploads/2016/08/vidy-zhalyuzi8.jpg" alt="">
+                  <img src="https://dekoriko.ru/images/article/orig/2017/09/vidy-zhalyuzi-1.jpeg" alt="">
+                </details>
+              </section>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="conatiner">
+            <div class="map">
+                <h1 class="jp-h1">
+                    Наш Офис
+                </h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1918.6811985886677!2d29.48566265398139!3d46.82792650649553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9041f8aeb0d2f%3A0x34b65224493fe7ab!2z0JbQsNC70Y7Qt9C4INCR0LXQvdC00LXRgNGLINCS0LvQsNGB0YLQsNCw0Ls!5e0!3m2!1sru!2s!4v1663604845995!5m2!1sru!2s" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </div>
+    <script src="./Js/main.js"></script>
+</body>
+</html>

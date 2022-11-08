@@ -1,0 +1,821 @@
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #1E2028;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.header {
+  margin: 0;
+  margin-top: 2em;
+}
+
+.conatiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+}
+
+.ul-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+}
+
+.li-item-link {
+  margin-top: 2em;
+}
+
+.li-item-link-a:hover {
+  color: #0FA958;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  padding-top: 1em;
+  color: #fff;
+}
+
+.btn {
+  margin-top: 1em;
+  width: 187px;
+  height: 53px;
+  background-color: #4080BF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.section-content {
+  margin-top: 3em;
+}
+
+.content-about {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1410px;
+  height: 650px;
+  border-radius: 35px;
+}
+
+.con-h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 61px;
+  line-height: 92px;
+  color: #FFF5F5;
+  width: 700px;
+  height: 184px;
+  margin-top: 3em;
+  margin-left: 9em;
+}
+
+.con-p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+  width: 675px;
+  height: 114px;
+  margin-left: 28em;
+  margin-top: 2em;
+}
+
+#btn-sec-1 {
+  margin-left: 42em;
+}
+
+.btn:hover {
+  background: #0FA958;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.section-d2 {
+  margin-top: 1em;
+}
+
+.block-1 {
+  margin-top: 0;
+  margin-right: 10em;
+}
+
+.block-h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 92px;
+  color: #FFFFFF;
+}
+
+.block-p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 50px;
+  color: #FFFFFF;
+  width: 410px;
+  height: 104px;
+}
+
+.block-2d {
+  padding-top: 10em;
+}
+
+.block-1.l {
+  margin-left: 5em;
+}
+
+.section-work {
+  margin-top: 10em;
+  border-radius: 20px;
+  width: 100%;
+}
+
+h4 {
+  color: #0FA958;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.block-h1.f {
+  color: #1E2028;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input,
+input[type="radio"] + label,
+input[type="checkbox"] + label:before,
+select option,
+select {
+  width: 90%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+input:focus {
+  outline: 0;
+  border-color: #0084ff;
+}
+
+input:focus + .input-icon i {
+  color: #0084ff;
+}
+
+input:focus + .input-icon:after {
+  border-right-color: #0084ff;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label,
+select {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  float: left;
+  border-radius: 0;
+}
+
+input[type="radio"] + label:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+input[type="radio"] + label:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+input[type="radio"] + label i {
+  padding-right: 0.4em;
+}
+
+input[type="radio"]:checked + label,
+input:checked + label:before,
+select:focus,
+select:active {
+  background-color: #0b89ff;
+  color: #fff;
+  border-color: #6164ff;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.input-group {
+  gap: 30px;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  display: block;
+  padding-left: 1.6em;
+}
+
+input[type="checkbox"] + label:before {
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  display: block;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  content: "";
+}
+
+input[type="checkbox"] + label:after {
+  position: absolute;
+  top: 0.45em;
+  left: 0.2em;
+  font-size: 0.8em;
+  color: #fff;
+  opacity: 0;
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+
+input:checked + label:after {
+  opacity: 1;
+}
+
+select {
+  height: 3.4em;
+  line-height: 2;
+}
+
+select:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+select:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+select:focus,
+select:active {
+  outline: 0;
+}
+
+select option {
+  background-color: #f0a500;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 1em;
+  zoom: 1;
+}
+
+.input-group:before,
+.input-group:after {
+  content: "";
+  display: table;
+}
+
+.input-group:after {
+  clear: both;
+}
+
+.input-group-icon {
+  position: relative;
+}
+
+.input-group-icon input {
+  padding-left: 4.4em;
+}
+
+.input-group-icon .input-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.4em;
+  height: 3.4em;
+  line-height: 3.4em;
+  text-align: center;
+  pointer-events: none;
+}
+
+.input-group-icon .input-icon:after {
+  position: absolute;
+  top: 0.6em;
+  bottom: 0.6em;
+  left: 3.4em;
+  display: block;
+  border-right: 1px solid #e5e5e5;
+  content: "";
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.input-group-icon .input-icon i {
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.container {
+  margin-bottom: 5em;
+  margin-top: 10em;
+  max-width: 34em;
+  padding: 1em 3em 2em 3em;
+  background-color: #fff;
+  border-radius: 4.2px;
+  -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  zoom: 1;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.col-half {
+  padding-right: 10px;
+  float: left;
+  width: 50%;
+}
+
+.col-half:last-of-type {
+  padding-right: 0;
+}
+
+.col-third {
+  padding-right: 10px;
+  float: left;
+  width: 48.33333333%;
+}
+
+.col-third:last-of-type {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 540px) {
+  .col-half {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+.section-pol {
+  margin-top: 10em;
+  color: #f9f9f9;
+  margin-bottom: 5em;
+}
+
+section {
+  padding-top: 4rem;
+  width: 50%;
+  margin: auto;
+  color: #e5e5e5;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+details[open] summary ~ * {
+  -webkit-animation: open 0.3s ease-in-out;
+          animation: open 0.3s ease-in-out;
+}
+
+@-webkit-keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  color: #e5e5e5;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 1px solid white;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+details summary:after {
+  content: "+";
+  color: white;
+  position: absolute;
+  font-size: 1.75rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: 200ms linear;
+  transition: 200ms linear;
+}
+
+details[open] summary:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  font-size: 2rem;
+}
+
+details summary {
+  outline: 0;
+}
+
+details p {
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+}
+
+.sum-p {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.sum-pk {
+  font-size: 25px;
+}
+
+.jp-h1 {
+  padding-left: 14em;
+  margin-bottom: 2em;
+  font-size: 25px;
+  color: #0FA958;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .conatiner {
+    margin-left: 5em;
+  }
+  .section-d2 {
+    margin-left: 10em;
+  }
+  .section-work {
+    margin-left: 3.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .conatiner {
+    margin-left: 20em;
+  }
+  .conatiner .ul-item {
+    gap: 4em;
+    width: 40em;
+  }
+}
+/* Basic reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	/* Better text styling */
+	font: bold 14px Arial, sans-serif;
+}
+
+/* Finally adding some IE9 fallbacks for gradients to finish things up */
+
+/* A nice BG gradient */
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+/* Using box shadows to create 3D effects */
+#calculator {
+	width: 325px;
+	height: auto;
+	
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	
+	background: #9dd2ea;
+	background: linear-gradient(#9dd2ea, #8bceec);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Top portion */
+.top span.clear {
+	float: left;
+}
+
+/* Inset shadow on the screen to create indent */
+.top .screen {
+	height: 40px;
+	width: 212px;
+	
+	float: right;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	/* Typography */
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+/* Clear floats */
+.keys, .top {overflow: hidden;}
+
+/* Applying same to the keys */
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	
+	cursor: pointer;
+	
+	width: 66px;
+	height: 36px;
+	
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	
+	margin: 0 7px 11px 0;
+	
+	color: #888;
+	line-height: 36px;
+	text-align: center;
+	
+	/* prevent selection of text inside keys */
+	user-select: none;
+	
+	/* Smoothing out hover and active states using css3 transitions */
+	transition: all 0.2s ease;
+}
+
+/* Remove right margins from operator keys */
+/* style different type of keys (operators/evaluate/clear) differently */
+.keys span.operator {
+	background: #FFF0F5;
+	margin-right: 0;
+}
+
+.keys span.eval {
+	background: #f1ff92;
+	box-shadow: 0px 4px #9da853;
+	color: #888e5f;
+}
+
+.top span.clear {
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	color: white;
+}
+
+/* Some hover effects */
+.keys span:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+.keys span.eval:hover {
+	background: #abb850;
+	box-shadow: 0px 4px #717a33;
+	color: #ffffff;
+}
+
+.top span.clear:hover {
+	background: #f68991;
+	box-shadow: 0px 4px #d3545d;
+	color: white;
+}
+
+/* Simulating "pressed" effect on active state of the keys by removing the box-shadow and moving the keys down a bit */
+.keys span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.keys span.eval:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
+}
+#example div {
+  width:350px;
+  height: 120px;
+  margin: 100px auto;
+  background-color: #ff0000;
+  border-radius: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius:  10px;
+  border:1px solid #666666;
+  padding:15px;
+  text-align:center;
+  font-weight: bold;
+  font-size: 15px;
+  border: 3px solid #cccccc;
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  }
+  .btn-zamer{
+    margin-top: 1em;
+  width: 187px;
+  height: 43px;
+  background-color: #4080BF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  }
+  .admin-panel{
+   margin-top: 3px;
+    background-color: #4080BF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 120px;
+    width: 60px;
+  }
+  .text{
+    color: white;
+  }
+  .btn-zamer:hover {
+    background: #0FA958;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+  }
+  .btn-zamer-close{
+    margin-top: 1em;
+    width: 187px;
+    height: 33px;
+    background-color: #4080BF;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .btn-zamer-two{
+    margin-top: 1em;
+    margin-left: 40%;
+  width: 187px;
+  height: 43px;
+  background-color: #4080BF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  }
+  .btn-zamer-two:hover {
+    background: #0FA958;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+  }
+  .Vlast-img{
+    width: 120px;
+    height: 70px;
+    border-radius: 30px;
+    margin-left: -10%;
+    margin-top: 1%;
+  }
+  /* Dropdown Button */
+.dropbtn {
+  margin-top: 1em;
+  width: 187px;
+  height: 43px;
+  background-color: #4080BF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-left: -30%;
+}
+.dropbtn:hover {
+  background: #0FA958;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+/* Dropdown button on hover & focus */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0202;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(202, 25, 25, 0.799);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
